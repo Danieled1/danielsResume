@@ -79,6 +79,7 @@ section:last-child{
  }
  .link-item svg{
     margin-right:6px;
+    color:#236FB2;
  }
 
  /* =============================
@@ -147,7 +148,6 @@ section:last-child{
  .reference-details{
     margin-bottom: 20px;
  }
-
 
  @media only screen and(max-width: 768px){
     section{
