@@ -1,7 +1,23 @@
-*{
-    margin:0;
-    padding:0;
+html{
+    box-sizing:border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
 }
 body{
-    background-color: tan;
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: 1.5;
+    background: #F2F2F2;
+    color:#323232;
+}
+img {
+    max-width:100%;
+}
+
+.icon{
+    fill:currentColor;        /* cuurentcolor = The color of the body*/
+    display:inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow:visible;
 }
