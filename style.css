@@ -49,7 +49,6 @@ section:last-child{
     font-weight: bold;
     font-size: 18px;
 }
-
 /* =============================
     * Main info *
    =============================
@@ -148,6 +147,7 @@ section:last-child{
         grid-template-columns: 1fr;
     }
     .links,.job-title-container{
+        display:flex;
         flex-direction: column;
     }
     .skills-container{
@@ -158,10 +158,9 @@ section:last-child{
         justify-content: flex-start;
     }
     .interests-container img{
-        margin-right: 32px;;
+        margin-right: 32px;
     }
  }
-
  @media only screen and (max-width:600px){
     .skills-container{
         grid-template-columns: 1fr;
@@ -177,5 +176,7 @@ section:last-child{
     .container{
         max-width: 95%;
     }
-    
+    .my-name{
+        font-size: 38px;
+    }
  }
