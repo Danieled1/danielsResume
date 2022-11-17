@@ -29,9 +29,9 @@ a:hover{
     text-decoration: underline;
 }
 .container{
-    max-width:960px;
+    max-width:90%;
     margin:40px auto;
-    padding:32px;
+    padding:40px;
     background: white;
     box-shadow: 0 2px 4px rgba(0,0,0,0.25);
 }
@@ -142,12 +142,6 @@ section:last-child{
    =============================
  */
 
- .reference {
-    font-size:18px;
- }
- .reference-details{
-    margin-bottom: 20px;
- }
 
  @media only screen and(max-width: 768px){
     section{
@@ -166,4 +160,19 @@ section:last-child{
     .interests-container img{
         margin-right: 32px;;
     }
+ }
+
+ @media only screen and (max-width:600px){
+    .skills-container{
+        grid-template-columns: 1fr;
+    }
+    a{
+        font-size: 80%;
+    }
+    .links{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    
  }
